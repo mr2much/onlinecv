@@ -1,3 +1,5 @@
+<!-- DONE: Corregir el error del div mal puesto, que ocasiona que los demas contenedores
+     no aparezcan alineados cuando se abre la pagina -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,9 +10,9 @@
 </head>
 <body>
 	<div class="container">	
-		<header>	
-			<div class="row">
-
+		
+		<div class="row">
+			<header>
 				<div class="col-md-3">
 					<h1 class="text-uppercase">Anubis</h1>
 					<h3 class="text-uppercase">Lockward</h3>
@@ -41,9 +43,9 @@
 						</li>
 					</ul>
 				</div>
-				
-			</div>
-		</header>
+			</header>		
+		</div>
+		
 		<!-- Resumen Tecnologico -->
 		<div class="row">
 			<div class="col-md-3">
@@ -97,179 +99,180 @@
 					</tbody>
 				</table>
 			</div> <!-- Resumen Tecnologico -->
+		</div>
 
-			<!-- Experiencia Profesional -->
-			<div class="row">
-				<div class="col-md-3">
-					<h3>Experiencia Profesional</h3>
-				</div>
-				<div class="col-md-9">
-					<!-- GBM -->
-					<section>
-						<div class="row">
-							<div class="col-md-4"><h4>2015 - Actual</h4></div>
-							<div class="col-md-4"><h4>GBM Dominicana</h4></div>
-							<div class="col-md-4"><h4>Lead Programmer</h4></div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<p>Desarrollo, mantenimiento y soporte de aplicaciones para el parseo y transformacion de datos en distintos formatos utilizando Java, C/C++, Bash y herramientas relacionadas. Analisis de codigo para pruebas y debugging, y creacion de pruebas para encontrar, aislar y corregir problemas en los programas o inconsistencias en los datos procesados.</p>
-
-								<section>
-									<dl>
-										<dt><h4>Logros:</h4></dt>
-										<dd>
-											<ul>
-												<li>
-													<p>Desarrollo de codigo, diseño de sistema, pruebas y QA de un programa para el parseo de informacion, que fue una pieza critica en un proyecto llevado a cabo por el Banco La Nacional, en el cual migraron toda su plataforma de datos para su cartera de clientes.</p>
-												</li>
-
-												<li>
-													<p>Desarrollo de codigo, diseño de sistema, pruebas y QA de un programa para el parseo de archivos PDF, el cual forma parte de la implementacion de un sistema de envio de estados de cuenta por correo electronico, para nuestro cliente Scotia Bank.</p>
-												</li>
-
-												<li>
-													<p>Refactorizacion de multiples sistemas para mejorar la productividad, claridad del codigo, disminuir el tiempo de ejecucion, corregir errores o implementar cambios o nuevas funcionalidades solicitadas por los clientes externos.</p>												
-												</li>
-
-												<li>
-													<p>Entrenamiento de programadores junior en metodologias de programacion y buenas practicas.</p>
-												</li>
-
-												<li>
-													<p>Implementacion de cambios en los programas de parseo de data, segun requerimientos de clientes.</p>
-												</li>
-
-												<li>
-													<p>Creacion de diversos scripts en Bash, o introduccion de cambios en los programas existentes, para automatizacion de procesos internos que debian realizarse manualmente.</p>									
-												</li>
-											</ul>
-										</dd>
-									</dl>
-								</section>
-							</div>
-						</div>
-					</section> <!-- GBM -->
-
-					<!-- Banco Leon -->
-					<section>
-						<div class="row">
-							<div class="col-md-4"><h4>2013 - 2014</h4></div>
-							<div class="col-md-4"><h4>Banco Leon</h4></div>
-							<div class="col-md-4"><h4>Coordinador de Operaciones CC</h4></div>
-							<div class="col-md-4"><h4>2009 - 2013</h4></div>
-							<div class="col-md-4"><h4>Banco Leon</h4></div>
-							<div class="col-md-4"><h4>Oficial de Monitoreo de Infraestructura Tecnologica</h4></div>
-							<div class="col-md-4"><h4>2007 - 2009</h4></div>
-							<div class="col-md-4"><h4>Banco Leon</h4></div>
-							<div class="col-md-4"><h4>Oficial de Autorizaciones</h4></div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<p>Inicie en la institucion como </p>
-
-								<section>
-									<dl>
-										<dt><h4>Logros:</h4></dt>
-										<dd>
-											<ul>
-												<li>
-													<p>Fui escalando posiciones hasta llegar a lider del <strong>Proyecto de Automatizacion de Procesos del Data Center y Centro de Computos</strong>, en el cual se lograron automatizar 9 de 12 procesos que se realizaban manualmente por el personal del Centro de Computos; y se logro disminuir el tiempo de ejecucion de dichos procesos de 4 horas a 25 minutos.</p>
-												</li>
-
-												<li>
-													<p>Analisis tecnico y financiero de las ofertas presentadas por diversos proveedores para la realizacion del proyecto, el cual se llevo a cabo utilizando la herramienta HP Operations Orchestration.</p>
-												</li>
-
-												<li>
-													<p>Interaccion con las diversas areas involucradas en cada paso de los procesos a automatizar.</p>
-												</li>
-
-												<li>
-													<p>Recolección de información, esquematización y creación de documentación de los procesos automatizados.</p>
-												</li>
-											</ul>
-										</dd>
-									</dl>
-								</section>
-							</div>
-						</div>
-					</section> <!-- Banco Leon -->
-
-					<!-- Tricom -->
-					<section>
-						<div class="row">
-							<div class="col-md-4"><h4>2005 - 2006</h4></div>
-							<div class="col-md-4"><h4>Tricom</h4></div>
-							<div class="col-md-4"><h4>Asistente de Facilidades</h4></div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<p>Configuración, diagnostico, programación y activación de líneas telefónicas, telecable, y celulares, así como también, asistencia telefónica a técnicos al momento de instalar líneas o identificar inconvenientes con las mismas.</p>
-
-								<section>
-									<dl>
-										<dt><h4>Logros:</h4></dt>
-										<dd>
-											<ul>
-												<li>
-													<p>Ganador en segundo lugar del premio Suma Excelencia con solo 8 meses de laborar en la empresa, por la programacion en un solo dia de una flota de 800 celulares.</p>
-												</li>
-
-												<li>
-													<p>Desarrollé un script en ASPECT de Procomm Plus para ayudar en la programación de centrales telefónicas, con el cual logre disminuir el tiempo de realización del proceso en un 62%.</p>
-												</li>
-											</ul>
-										</dd>
-									</dl>
-								</section>
-							</div>
-						</div>
-					</section> <!-- Tricom -->
-
-				</div>
-			</div> <!-- Experienica Profesional -->
-
-			<div class="row">	<!-- Educacion & Certificaciones -->
-				<div class="col-md-3">
-					<h3>Educacion y Certificaciones</h3>
-				</div>
-				<div class="col-md-9">
+		<!-- Experiencia Profesional -->
+		<div class="row">
+			<div class="col-md-3">
+				<h3>Experiencia Profesional</h3>
+			</div>
+			<div class="col-md-9">
+				<!-- GBM -->
+				<section>
+					<div class="row">
+						<div class="col-md-4"><h4>2015 - Actual</h4></div>
+						<div class="col-md-4"><h4>GBM Dominicana</h4></div>
+						<div class="col-md-4"><h4>Lead Programmer</h4></div>
+					</div>
 					<div class="row">
 						<div class="col-md-12">
-							<h4 class="text-uppercase">Universidad Tecnologica de Santiago <strong>UTESA</strong> - Santo Domingo, DN</h4>
-							<h5><strong><em>Ingenieria en Informatica</em></strong></h5>
+							<p>Desarrollo, mantenimiento y soporte de aplicaciones para el parseo y transformacion de datos en distintos formatos utilizando Java, C/C++, Bash y herramientas relacionadas. Analisis de codigo para pruebas y debugging, y creacion de pruebas para encontrar, aislar y corregir problemas en los programas o inconsistencias en los datos procesados.</p>
+
+							<section>
+								<dl>
+									<dt><h4>Logros:</h4></dt>
+									<dd>
+										<ul>
+											<li>
+												<p>Desarrollo de codigo, diseño de sistema, pruebas y QA de un programa para el parseo de informacion, que fue una pieza critica en un proyecto llevado a cabo por el Banco La Nacional, en el cual migraron toda su plataforma de datos para su cartera de clientes.</p>
+											</li>
+
+											<li>
+												<p>Desarrollo de codigo, diseño de sistema, pruebas y QA de un programa para el parseo de archivos PDF, el cual forma parte de la implementacion de un sistema de envio de estados de cuenta por correo electronico, para nuestro cliente Scotia Bank.</p>
+											</li>
+
+											<li>
+												<p>Refactorizacion de multiples sistemas para mejorar la productividad, claridad del codigo, disminuir el tiempo de ejecucion, corregir errores o implementar cambios o nuevas funcionalidades solicitadas por los clientes externos.</p>												
+											</li>
+
+											<li>
+												<p>Entrenamiento de programadores junior en metodologias de programacion y buenas practicas.</p>
+											</li>
+
+											<li>
+												<p>Implementacion de cambios en los programas de parseo de data, segun requerimientos de clientes.</p>
+											</li>
+
+											<li>
+												<p>Creacion de diversos scripts en Bash, o introduccion de cambios en los programas existentes, para automatizacion de procesos internos que debian realizarse manualmente.</p>									
+											</li>
+										</ul>
+									</dd>
+								</dl>
+							</section>
 						</div>
 					</div>
+				</section> <!-- GBM -->
+
+				<!-- Banco Leon -->
+				<section>
 					<div class="row">
-						<dl>
-							<dt><h4>Certifiaciones:</h4></dt>
-							<dd>
-								<ul>
-									<li><strong>ITIL v3: Foundations</strong>, <em>2012</em></li>
-									<li><strong>CA Spectrum r9.0 Network Fault Management</strong>, <em>2010</em></li>
-									<li><strong>CA eHealth r6.1 Performance Manager Suite</strong>, <em>2010</em></li>
-								</ul>
-							</dd>
-
-							<dt><h4>Cursos:</h4></dt>
-
-							<dd>
-								<ul>
-									<li><strong>Object Oriented Programming in Java</strong>, <em>2016</em></li>
-									<li><strong>Responsive Website Basics: Code with HTML, CSS and JavaScript</strong>, <em>Abril 2016</em></li>
-									<li><strong>HP Operations Orchestration: Essentials, Intermediate and Advanced Authoring</strong>, <em>Junio 2014</em></li>
-									<li><strong>Diplomado en Desarrollo de Aplicaciones en C#</strong>, <em>2011</em></li>
-									<li><strong>Java Basico e Intermedio</strong>, <em>2008</em></li>
-								</ul>
-							</dd>
-						</dl>
-
-
+						<div class="col-md-4"><h4>2013 - 2014</h4></div>
+						<div class="col-md-4"><h4>Banco Leon</h4></div>
+						<div class="col-md-4"><h4>Coordinador de Operaciones CC</h4></div>
+						<div class="col-md-4"><h4>2009 - 2013</h4></div>
+						<div class="col-md-4"><h4>Banco Leon</h4></div>
+						<div class="col-md-4"><h4>Oficial de Monitoreo de Infraestructura Tecnologica</h4></div>
+						<div class="col-md-4"><h4>2007 - 2009</h4></div>
+						<div class="col-md-4"><h4>Banco Leon</h4></div>
+						<div class="col-md-4"><h4>Oficial de Autorizaciones</h4></div>
 					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<p>Inicie en la institucion como </p>
+
+							<section>
+								<dl>
+									<dt><h4>Logros:</h4></dt>
+									<dd>
+										<ul>
+											<li>
+												<p>Fui escalando posiciones hasta llegar a lider del <strong>Proyecto de Automatizacion de Procesos del Data Center y Centro de Computos</strong>, en el cual se lograron automatizar 9 de 12 procesos que se realizaban manualmente por el personal del Centro de Computos; y se logro disminuir el tiempo de ejecucion de dichos procesos de 4 horas a 25 minutos.</p>
+											</li>
+
+											<li>
+												<p>Analisis tecnico y financiero de las ofertas presentadas por diversos proveedores para la realizacion del proyecto, el cual se llevo a cabo utilizando la herramienta HP Operations Orchestration.</p>
+											</li>
+
+											<li>
+												<p>Interaccion con las diversas areas involucradas en cada paso de los procesos a automatizar.</p>
+											</li>
+
+											<li>
+												<p>Recolección de información, esquematización y creación de documentación de los procesos automatizados.</p>
+											</li>
+										</ul>
+									</dd>
+								</dl>
+							</section>
+						</div>
+					</div>
+				</section> <!-- Banco Leon -->
+
+				<!-- Tricom -->
+				<section>
+					<div class="row">
+						<div class="col-md-4"><h4>2005 - 2006</h4></div>
+						<div class="col-md-4"><h4>Tricom</h4></div>
+						<div class="col-md-4"><h4>Asistente de Facilidades</h4></div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<p>Configuración, diagnostico, programación y activación de líneas telefónicas, telecable, y celulares, así como también, asistencia telefónica a técnicos al momento de instalar líneas o identificar inconvenientes con las mismas.</p>
+
+							<section>
+								<dl>
+									<dt><h4>Logros:</h4></dt>
+									<dd>
+										<ul>
+											<li>
+												<p>Ganador en segundo lugar del premio Suma Excelencia con solo 8 meses de laborar en la empresa, por la programacion en un solo dia de una flota de 800 celulares.</p>
+											</li>
+
+											<li>
+												<p>Desarrollé un script en ASPECT de Procomm Plus para ayudar en la programación de centrales telefónicas, con el cual logre disminuir el tiempo de realización del proceso en un 62%.</p>
+											</li>
+										</ul>
+									</dd>
+								</dl>
+							</section>
+						</div>
+					</div>
+				</section> <!-- Tricom -->
+
+			</div>
+		</div> <!-- Experienica Profesional -->
+
+		<div class="row">	<!-- Educacion & Certificaciones -->
+			<div class="col-md-3">
+				<h3>Educacion y Certificaciones</h3>
+			</div>
+			<div class="col-md-9">
+				<div class="row">
+					<div class="col-md-12">
+						<h4 class="text-uppercase">Universidad Tecnologica de Santiago <strong>UTESA</strong> - Santo Domingo, DN</h4>
+						<h5><strong><em>Ingenieria en Informatica</em></strong></h5>
+					</div>
+				</div>
+				<div class="row">
+					<dl>
+						<dt><h4>Certifiaciones:</h4></dt>
+						<dd>
+							<ul>
+								<li><strong>ITIL v3: Foundations</strong>, <em>2012</em></li>
+								<li><strong>CA Spectrum r9.0 Network Fault Management</strong>, <em>2010</em></li>
+								<li><strong>CA eHealth r6.1 Performance Manager Suite</strong>, <em>2010</em></li>
+							</ul>
+						</dd>
+
+						<dt><h4>Cursos:</h4></dt>
+
+						<dd>
+							<ul>
+								<li><strong>Object Oriented Programming in Java</strong>, <em>2016</em></li>
+								<li><strong>Responsive Website Basics: Code with HTML, CSS and JavaScript</strong>, <em>Abril 2016</em></li>
+								<li><strong>HP Operations Orchestration: Essentials, Intermediate and Advanced Authoring</strong>, <em>Junio 2014</em></li>
+								<li><strong>Diplomado en Desarrollo de Aplicaciones en C#</strong>, <em>2011</em></li>
+								<li><strong>Java Basico e Intermedio</strong>, <em>2008</em></li>
+							</ul>
+						</dd>
+					</dl>
+
+
 				</div>
 			</div>
 		</div>
+	
 	</div>
 </body>
 </html>
