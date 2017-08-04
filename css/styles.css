@@ -5,3 +5,7 @@
 * {
 	box-sizing: border-box;
 }
+
+div > h3 {
+	color: #617AA0;
+}
